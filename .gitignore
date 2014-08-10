@@ -1,3 +1,4 @@
+autoload/pathogen.vim
 tmp/*
 tmp/swap/*
 tmp/backups/*
