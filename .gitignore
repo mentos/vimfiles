@@ -1,4 +1,3 @@
-backups/*
 tmp/*
 tmp/swap/*
-colors/collection
+tmp/backups/*
