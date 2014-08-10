@@ -10,6 +10,12 @@ In case you haven't set up vim run the execute commands:
 ```
 $ ~ git clone https://github.com/mentos/vimfiles ~/.vim
 $ ~ cd ~/.vim
+$ ~ bash bootstrap
+```
+
+The bootstrap files contains the following commands:
+
+```
 $ ~ curl -LSso ./autoload/pathogen.vim https://tpo.pe/pathogen.vim
 $ ~ ln -s ~/.vim/vimrc ~/.vimrc
 $ ~ git submodule update --init

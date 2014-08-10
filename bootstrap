@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Downloading pathogen.vim"
+curl -LSso "$HOME/.vim/autoload/pathogen.vim" https://tpo.pe/pathogen.vim
+
+echo "Creating symbolic link for ~/.vimrc"
+ln -s ~/.vim/vimrc ~/.vimrc
+
+echo "Updating git submodules"
+git submodule update --init
