@@ -1,0 +1,1 @@
+collection/mango/colors/mango.vim

@@ -70,3 +70,19 @@
 	path = bundle/fugitive
 	url = git://github.com/tpope/vim-fugitive.git
   ignore = dirty
+[submodule "colors/collection/jellyx"]
+	path = colors/collection/jellyx
+	url = https://github.com/guns/jellyx.vim
+  ignore = dirty
+[submodule "colors/collection/codeschool"]
+	path = colors/collection/codeschool
+	url = https://github.com/29decibel/codeschool-vim-theme
+  ignore = dirty
+[submodule "colors/collection/molokai"]
+	path = colors/collection/molokai
+	url = https://github.com/tomasr/molokai
+  ignore = dirty
+[submodule "colors/collection/mango"]
+	path = colors/collection/mango
+	url = https://github.com/mentos/mango.vim
+  ignore = dirty
