@@ -86,3 +86,7 @@
 	path = colors/collection/mango
 	url = https://github.com/mentos/mango.vim
   ignore = dirty
+[submodule "bundle/ctrlp"]
+	path = bundle/ctrlp
+	url = git@github.com:kien/ctrlp.vim.git
+  ignore = dirty

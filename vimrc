@@ -114,3 +114,6 @@ nnoremap <C-W>s Hmx`` \|:split<CR>`xzt``
 " Little hack to fix the split/scroll problem 
 tabnew
 bwipeout
+
+" Start ctrlp
+set runtimepath^=~/.vim/bundle/ctrlp.vim
