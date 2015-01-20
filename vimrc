@@ -33,7 +33,7 @@ set incsearch                     "Do incremental searching
 set ignorecase                    "Make searches case-insensitive.
 set smartcase                     "Unless there is a capital letter
 
-colorscheme codeschool
+colorscheme lucius
 
 " Display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·

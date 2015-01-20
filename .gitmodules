@@ -98,3 +98,6 @@
 	path = bundle/coffescript
 	url = git@github.com:kchmck/vim-coffee-script.git
   ignore = dirty
+[submodule "colors/collection/lucius"]
+	path = colors/collection/lucius
+	url = git@github.com:jonathanfilip/vim-lucius.git
