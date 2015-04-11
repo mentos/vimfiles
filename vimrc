@@ -33,7 +33,7 @@ set incsearch                     "Do incremental searching
 set ignorecase                    "Make searches case-insensitive.
 set smartcase                     "Unless there is a capital letter
 
-colorscheme lucius
+colorscheme codeschool
 
 " Display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·
@@ -61,6 +61,8 @@ autocmd BufReadPost fugitive://* set bufhidden=delete
 
 " save swaps in fixed directories
 set directory=~/.vim/tmp/swap//,/var/tmp//,/tmp//
+
+let mapleader=","
 
 " autocmd vimenter * NERDTree   "Autostarts NERDTree
 autocmd VimEnter * wincmd p   "Focus on current window
@@ -101,8 +103,6 @@ let g:syntastic_auto_loc_list=0
 
 runtime macros/matchit.vim
 
-let mapleader=","
-" RSpec.vim mappings
 let g:RspecKeymap=0
 map <Leader>t :call RunSpec()<CR>
 map <Leader>s :call RunSpecLine()<CR>
