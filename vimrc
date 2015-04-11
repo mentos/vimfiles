@@ -70,6 +70,7 @@ let g:NERDTreeWinSize=30      "Set size
 let g:NERDTreeWinPos="left"   "Set position
 let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=1
+map <Leader>cd :NERDTreeFind<CR>
 
 " Toggle NERDTree with F2
 map <F2> :NERDTreeToggle<CR>  
@@ -117,3 +118,8 @@ bwipeout
 
 " Start ctrlp
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*node_modules*
+let g:ctrlp_custom_ignore = {
+  \ "dir":  "\v[\/]\.(git|hg|svn)$",
+  \ "file": "\v\.(exe|so|dll)$"
+  \ }
