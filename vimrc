@@ -35,6 +35,8 @@ set smartcase                     "Unless there is a capital letter
 
 colorscheme codeschool
 
+let mapleader=","
+
 " Display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·
 "set colorcolumn=0              "Disable max chars column
@@ -58,11 +60,14 @@ endif
 " This means that your buffer listing can quickly become swamped with 
 " fugitive buffers. This prevents this from becomming an issue:
 autocmd BufReadPost fugitive://* set bufhidden=delete
+map <Leader>gb :Gblame<CR>
+
+" Grep navigation
+map <F7> :cp<CR>
+map <F8> :cn<CR>
 
 " save swaps in fixed directories
 set directory=~/.vim/tmp/swap//,/var/tmp//,/tmp//
-
-let mapleader=","
 
 " autocmd vimenter * NERDTree   "Autostarts NERDTree
 autocmd VimEnter * wincmd p   "Focus on current window
