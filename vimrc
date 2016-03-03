@@ -31,23 +31,26 @@ set ignorecase                    "Make searches case-insensitive.
 set smartcase                     "Unless there is a capital letter
 
 " System specific settings
-if has("gui_macvim")
-  set guifont=Monaco:h13           " Set font family and size
-  colorscheme molokai
-else
-  set guifont=Droid\ Sans\ Mono\ 9 " Set font family and size
-  colorscheme codeschool
+if has("unix")
+  let s:uname = system("uname -s")
+  if s:uname == "Darwin\n"
+    set guifont=Monaco:h13           " Set font family and size
+    colorscheme molokai              " Set colorscheme for terminal
+  else
+    set guifont=Droid\ Sans\ Mono\ 9 " Set font family and size
+    colorscheme codeschool
+  endif
 endif
 
 let mapleader=","
 
 " Display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·
-"set colorcolumn=0              "Disable max chars column
+set colorcolumn=0         " Disable max chars column
 
-filetype on                     "Enable filetype detection
-filetype indent on              "Enable filetype-specific indenting
-filetype plugin on              "Enable filetype-specific plugins
+filetype on               " Enable filetype detection
+filetype indent on        " Enable filetype-specific indenting
+filetype plugin on        " Enable filetype-specific plugins
 filetype indent plugin on
 
 set omnifunc=syntaxcomplete#Complete
