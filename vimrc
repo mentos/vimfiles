@@ -11,7 +11,6 @@ set hidden
 
 set background=dark               "Use `dark` or `light` as your background
 set number                        "Display numbers
-set guifont=Droid\ Sans\ Mono\ 9  "Set font family and size
 set nowrap                        "Do not wrap lines
 set guioptions-=T                 "Remove top toolbar
 set guioptions-=r                 "Remove right hand scroll bar
@@ -20,12 +19,10 @@ set cursorline                    "Highlight current line
 set gcr=a:blinkon0                "Disable cursor blink
 set visualbell                    "No sounds
 set autoread                      "Reload files changed outside vim
-
 set expandtab                     "Use spaces for tab at insert mode
 set shiftwidth=2                  "How many columns text is indented with the reindent operations
 set softtabstop=2                 "Duh?
 set tabstop=2                     "How many columns a tab counts for
-
 set history=1000                  "Keep 150 lines of command line history
 set ruler                         "Show the cursor position all the time
 set showcmd                       "Display incomplete commands
@@ -33,7 +30,14 @@ set incsearch                     "Do incremental searching
 set ignorecase                    "Make searches case-insensitive.
 set smartcase                     "Unless there is a capital letter
 
-colorscheme codeschool
+" System specific settings
+if has("gui_macvim")
+  set guifont=Monaco:h13           " Set font family and size
+  colorscheme molokai
+else
+  set guifont=Droid\ Sans\ Mono\ 9 " Set font family and size
+  colorscheme codeschool
+endif
 
 let mapleader=","
 
@@ -45,7 +49,6 @@ filetype on                     "Enable filetype detection
 filetype indent on              "Enable filetype-specific indenting
 filetype plugin on              "Enable filetype-specific plugins
 filetype indent plugin on
-
 
 set omnifunc=syntaxcomplete#Complete
 
