@@ -101,3 +101,6 @@
 [submodule "colors/collection/lucius"]
 	path = colors/collection/lucius
 	url = git@github.com:jonathanfilip/vim-lucius.git
+[submodule "bundle/mote"]
+	path = bundle/mote
+	url = git@github.com:rodrim3n/vim-mote.git
