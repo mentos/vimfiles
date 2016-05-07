@@ -29,6 +29,7 @@ set showcmd                       "Display incomplete commands
 set incsearch                     "Do incremental searching
 set ignorecase                    "Make searches case-insensitive.
 set smartcase                     "Unless there is a capital letter
+set clipboard=unnamed             "All operations work with the OS clipboard. No need for \"+, \"*
 
 " System specific settings
 if has("unix")
