@@ -1,85 +1,88 @@
+# plugins
 [submodule "bundle/rvm"]
-	path = bundle/rvm
-	url = git://github.com/tpope/vim-rvm.git
+  path = bundle/rvm
+  url = git://github.com/tpope/vim-rvm.git
   ignore = dirty
 [submodule "bundle/javascript"]
-	path = bundle/javascript
-	url = https://github.com/pangloss/vim-javascript.git
+  path = bundle/javascript
+  url = https://github.com/pangloss/vim-javascript.git
   ignore = dirty
 [submodule "bundle/ruby"]
-	path = bundle/ruby
-	url = git://github.com/vim-ruby/vim-ruby.git
+  path = bundle/ruby
+  url = git://github.com/vim-ruby/vim-ruby.git
   ignore = dirty
 [submodule "bundle/gitgutter"]
-	path = bundle/gitgutter
-	url = git://github.com/airblade/vim-gitgutter.git
+  path = bundle/gitgutter
+  url = git://github.com/airblade/vim-gitgutter.git
   ignore = dirty
 [submodule "bundle/surround"]
-	path = bundle/surround
-	url = git://github.com/tpope/vim-surround.git
+  path = bundle/surround
+  url = git://github.com/tpope/vim-surround.git
   ignore = dirty
 [submodule "bundle/matchit"]
-	path = bundle/matchit
-	url = https://github.com/vim-scripts/matchit.zip
+  path = bundle/matchit
+  url = https://github.com/vim-scripts/matchit.zip
   ignore = dirty
 [submodule "bundle/tabular"]
-	path = bundle/tabular
-	url = git://github.com/godlygeek/tabular.git
+  path = bundle/tabular
+  url = git://github.com/godlygeek/tabular.git
   ignore = dirty
 [submodule "bundle/rspec"]
-	path = bundle/rspec
-	url = https://github.com/skwp/vim-rspec
+  path = bundle/rspec
+  url = https://github.com/skwp/vim-rspec
   ignore = dirty
 [submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
+  path = bundle/nerdtree
+  url = https://github.com/scrooloose/nerdtree.git
   ignore = dirty
 [submodule "bundle/syntastic"]
-	path = bundle/syntastic
-	url = https://github.com/scrooloose/syntastic
+  path = bundle/syntastic
+  url = https://github.com/scrooloose/syntastic
   ignore = dirty
 [submodule "bundle/supertab"]
-	path = bundle/supertab
-	url = https://github.com/ervandew/supertab
+  path = bundle/supertab
+  url = https://github.com/ervandew/supertab
   ignore = dirty
 [submodule "bundle/jsx"]
-	path = bundle/jsx
-	url = https://github.com/mxw/vim-jsx.git
+  path = bundle/jsx
+  url = https://github.com/mxw/vim-jsx.git
   ignore = dirty
 [submodule "bundle/fugitive"]
-	path = bundle/fugitive
-	url = git://github.com/tpope/vim-fugitive.git
-  ignore = dirty
-[submodule "colors/collection/jellyx"]
-	path = colors/collection/jellyx
-	url = https://github.com/guns/jellyx.vim
-  ignore = dirty
-[submodule "colors/collection/codeschool"]
-	path = colors/collection/codeschool
-	url = https://github.com/29decibel/codeschool-vim-theme
-  ignore = dirty
-[submodule "colors/collection/molokai"]
-	path = colors/collection/molokai
-	url = https://github.com/tomasr/molokai
-  ignore = dirty
-[submodule "colors/collection/mango"]
-	path = colors/collection/mango
-	url = https://github.com/mentos/mango.vim
+  path = bundle/fugitive
+  url = git://github.com/tpope/vim-fugitive.git
   ignore = dirty
 [submodule "bundle/ctrlp"]
-	path = bundle/ctrlp
-	url = git@github.com:kien/ctrlp.vim.git
+  path = bundle/ctrlp
+  url = git@github.com:kien/ctrlp.vim.git
+  ignore = dirty
+[submodule "bundle/mote"]
+  path = bundle/mote
+  url = git@github.com:rodrim3n/vim-mote.git
+[submodule "bundle/editorconfig"]
+  path = bundle/editorconfig
+  url = git@github.com:editorconfig/editorconfig-vim.git
+[submodule "bundle/typescript-vim"]
+  path = bundle/typescript-vim
+  url = git@github.com:leafgarland/typescript-vim.git
+  ignore = dirty
+
+# colorschemes
+[submodule "colors/collection/jellyx"]
+  path = colors/collection/jellyx
+  url = https://github.com/guns/jellyx.vim
+  ignore = dirty
+[submodule "colors/collection/codeschool"]
+  path = colors/collection/codeschool
+  url = https://github.com/29decibel/codeschool-vim-theme
+  ignore = dirty
+[submodule "colors/collection/molokai"]
+  path = colors/collection/molokai
+  url = https://github.com/tomasr/molokai
+  ignore = dirty
+[submodule "colors/collection/mango"]
+  path = colors/collection/mango
+  url = https://github.com/mentos/mango.vim
   ignore = dirty
 [submodule "colors/collection/lucius"]
-	path = colors/collection/lucius
-	url = git@github.com:jonathanfilip/vim-lucius.git
-[submodule "bundle/mote"]
-	path = bundle/mote
-	url = git@github.com:rodrim3n/vim-mote.git
-[submodule "bundle/editorconfig"]
-	path = bundle/editorconfig
-	url = git@github.com:editorconfig/editorconfig-vim.git
-[submodule "bundle/typescript-vim"]
-	path = bundle/typescript-vim
-	url = git@github.com:leafgarland/typescript-vim.git
-  ignore = dirty
+  path = colors/collection/lucius
+  url = git@github.com:jonathanfilip/vim-lucius.git
