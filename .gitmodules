@@ -86,3 +86,6 @@
 [submodule "colors/collection/lucius"]
   path = colors/collection/lucius
   url = git@github.com:jonathanfilip/vim-lucius.git
+[submodule "colors/collection/netstudio"]
+  path = colors/collection/netstudio
+  url = git@github.com:tomasiser/vim-code-dark.git

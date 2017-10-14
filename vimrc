@@ -37,7 +37,7 @@ if has("unix")
   let s:uname = system("uname -s")
   if s:uname == "Darwin\n"
     set guifont=Monaco:h13           " Set font family and size
-    colorscheme codeschool           " Set colorscheme for terminal
+    colorscheme netstudio            " Set colorscheme for terminal
   else
     set guifont=Droid\ Sans\ Mono\ 9 " Set font family and size
     colorscheme codeschool
