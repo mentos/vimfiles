@@ -23,7 +23,7 @@ set expandtab                     "Use spaces for tab at insert mode
 set shiftwidth=2                  "How many columns text is indented with the reindent operations
 set softtabstop=2                 "Duh?
 set tabstop=2                     "How many columns a tab counts for
-set history=1000                  "Keep 150 lines of command line history
+set history=10000                 "Keep 10K lines of command line history
 set ruler                         "Show the cursor position all the time
 set showcmd                       "Display incomplete commands
 set incsearch                     "Do incremental searching
