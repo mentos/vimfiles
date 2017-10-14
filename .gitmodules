@@ -81,3 +81,9 @@
 [submodule "colors/collection/netstudio"]
   path = colors/collection/netstudio
   url = git@github.com:tomasiser/vim-code-dark.git
+[submodule "vim-airline"]
+	path = vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
+[submodule "bundle/airline"]
+	path = bundle/airline
+	url = git@github.com:vim-airline/vim-airline.git
