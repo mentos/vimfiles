@@ -114,6 +114,7 @@ let g:syntastic_auto_jump=0
 let g:syntastic_auto_loc_list=0
 "don't care about warnings
 "let g:syntastic_quiet_warnings=0
+"let g:syntastic_html_tidy_ignore_errors=[]
 
 runtime macros/matchit.vim
 
