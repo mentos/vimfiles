@@ -137,3 +137,10 @@ let g:ctrlp_custom_ignore = {
   \ "dir":  "\v[\/]\.(git|hg|svn)$",
   \ "file": "\v\.(exe|so|dll)$"
   \ }
+
+" Visual sugar for when focusing window
+augroup BgHighlight
+  autocmd!
+  autocmd BufEnter * set cul
+  autocmd BufLeave * set nocul
+augroup END
