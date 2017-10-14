@@ -99,12 +99,11 @@ endif
 " autoclose ruby blocks with end
 imap <S-CR>    <CR><CR>end<Esc>-cc
 
-set statusline=%t 
-set statusline+=%{rvm#statusline()}  
-set statusline+=%{fugitive#statusline()}\    
+set statusline=%t
+set statusline+=%{fugitive#statusline()}\
 set statusline+=%=
 set statusline+=[%{strlen(&fenc)?&fenc:&enc}]
-set statusline+=\ [line\ %l\/%L]          
+set statusline+=\ [line\ %l\/%L]
 
 "mark syntax errors with :signs
 let g:syntastic_enable_signs=1

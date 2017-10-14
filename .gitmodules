@@ -1,8 +1,4 @@
 # plugins
-[submodule "bundle/rvm"]
-  path = bundle/rvm
-  url = git://github.com/tpope/vim-rvm.git
-  ignore = dirty
 [submodule "bundle/javascript"]
   path = bundle/javascript
   url = https://github.com/pangloss/vim-javascript.git
@@ -26,10 +22,6 @@
 [submodule "bundle/tabular"]
   path = bundle/tabular
   url = git://github.com/godlygeek/tabular.git
-  ignore = dirty
-[submodule "bundle/rspec"]
-  path = bundle/rspec
-  url = https://github.com/skwp/vim-rspec
   ignore = dirty
 [submodule "bundle/nerdtree"]
   path = bundle/nerdtree
